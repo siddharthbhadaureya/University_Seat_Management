@@ -5,23 +5,14 @@
 #define MAX_COURSES 10
 #define MAX_STUDENTS 100
 
-// Structures
+// Structure
 struct Course {
     char code[10];
     char title[50];
     int seats;
 };
 struct Course courses[MAX_COURSES];
-//struct Student {
-//    int id;
-//    char name[50];
-//    int enrolledCourses[MAX_COURSES];
-//    int numCourses;
-//};
 
-// Global arrays for courses and students
-//struct Student students[MAX_STUDENTS];
-//int numStudents = 0;
 int numCourses = 0;
 
 // Function to display course and seat availability
